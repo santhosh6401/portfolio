@@ -1,0 +1,13 @@
+.icons {
+  color: rgb(32, 32, 32);
+  font-weight: 500;
+  font-size: 18px;
+  margin: 5px;
+}
+
+.footer {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  bottom: 0;
+  position: fixed;
+}

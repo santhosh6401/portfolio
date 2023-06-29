@@ -1,0 +1,43 @@
+h5 {
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+h5::after {
+  content: "";
+  flex: 1 1;
+  border-top: 2px solid var(--color-grey);
+  margin: auto;
+  margin-left: 5px;
+}
+
+.text-field {
+  font-size: 13px;
+  line-height: 1.8rem;
+  color: #565454f1;
+}
+
+.table-title {
+  font-weight: 700;
+}
+
+.progress {
+  margin-top: 5px;
+  color: var(--color-grey);
+}
+
+.skill {
+  margin-top: 25px;
+}
+
+.section{
+    margin-top: 0px;
+}
+
+.interest{
+    margin: 10px;
+}
+
+

@@ -1,0 +1,25 @@
+.profile {
+  margin-top: 125px;
+  color: rgb(32, 32, 32);
+}
+
+.text {
+  margin-top: 15px;
+  font-size: 45px;
+}
+
+.rotate-text {
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.button {
+  margin-top: 50px;
+}
+
+.line{
+  width: 50%;
+  height: 6;
+  border-color: var(--color-grey);
+  border-top: 5px solid;
+}
