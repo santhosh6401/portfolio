@@ -4,6 +4,8 @@ import Carousel from "react-bootstrap/Carousel";
 import DigitalMarketing from "./../../assets/digital marketing.png";
 import ReactJs from "./../../assets/internshala.png";
 import C from "./../../assets/udemy_c.png";
+import C_Pointer from "./../../assets/c_pointer.png";
+import Spring_Boot from "./../../assets/spring_boot.png";
 
 const Certification = () => {
   return (
@@ -11,6 +13,15 @@ const Certification = () => {
       <Container>
         <h6 className="text-center p-3">Certification</h6>
         <Carousel controls={true} indicators={true} className="carousel-dark">
+          <Carousel.Item interval={2500}>
+            <img
+              className="image"
+              src={Spring_Boot}
+              alt="Master in Spring boot 3 from udemy"
+            />
+
+            <p className="text-dark p-5">Master in Spring boot 3</p>
+          </Carousel.Item>
           <Carousel.Item interval={2500}>
             <img
               className="image"
@@ -36,6 +47,15 @@ const Certification = () => {
             />
 
             <p className="text-dark p-5">Advanced in C Programming</p>
+          </Carousel.Item>
+          <Carousel.Item interval={2500}>
+            <img
+              className="image"
+              src={C_Pointer}
+              alt="Advanced C Programming Pointer from Udemy"
+            />
+
+            <p className="text-dark p-5">Advanced in C Programming Pointer</p>
           </Carousel.Item>
         </Carousel>
       </Container>

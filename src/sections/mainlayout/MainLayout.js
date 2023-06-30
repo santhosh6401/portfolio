@@ -33,6 +33,8 @@ const Navbar = () => {
     setIndex(3);
   };
 
+
+
   return (
     <>
       <Container className="content">
@@ -60,7 +62,7 @@ const Navbar = () => {
               <Carousel.Item interval={10000}>
                 <Education />
               </Carousel.Item>
-              <Carousel.Item interval={10000}>
+              <Carousel.Item interval={20000}>
                 <Certification />
               </Carousel.Item>
             </Carousel>
