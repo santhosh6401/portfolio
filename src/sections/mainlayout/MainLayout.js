@@ -9,6 +9,7 @@ import Carousel from "react-bootstrap/Carousel";
 import { useState } from "react";
 import Certification from "../certifications/Certification";
 import Resume from "./../../assets/santhoshkumar_CV.pdf";
+import profile_image from "../../assets/Profile.jpeg";
 
 const Navbar = () => {
   const [index, setIndex] = useState(0);
@@ -41,7 +42,7 @@ const Navbar = () => {
         <Row>
           <Col md={3}>
             <img
-              src="https://media.licdn.com/dms/image/D5603AQGJoWfujPKPrw/profile-displayphoto-shrink_400_400/0/1672856277366?e=1693440000&v=beta&t=EgU7LeVFSZVmTcwRJIvKCwmRqB4rs0HFBHHC_4_aZFY"
+              src={profile_image}
               alt="profile_image"
               className="profile-image"
             />
