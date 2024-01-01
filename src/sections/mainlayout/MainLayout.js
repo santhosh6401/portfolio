@@ -4,7 +4,7 @@ import Logo from "./../../assets/logo_portfolio.png";
 import { Col, Row, Container } from "react-bootstrap";
 import About from "../about/About";
 import Home from "../home/Home";
-import Education from "../education/Education";
+import Education from "../education/LifeMap";
 import Carousel from "react-bootstrap/Carousel";
 import { useState } from "react";
 import Certification from "../certifications/Certification";
@@ -47,7 +47,7 @@ const Navbar = () => {
               className="profile-image"
             />
           </Col>
-          <Col md={9}>
+          <Col md={9} className="data">
             <Carousel
               activeIndex={index}
               onSelect={handleSelect}
@@ -74,7 +74,7 @@ const Navbar = () => {
       <Container className="header">
         <Row>
           <Col md={3}>
-            <img src={Logo} alt="Logo" height={60} width={180} />
+            <img src={Logo} className="logo" alt="Logo" height={60} width={180} />
           </Col>
           <Col md={4}></Col>
           <Col md={1} onClick={setHome}>
@@ -86,7 +86,7 @@ const Navbar = () => {
           </Col>
 
           <Col md={1} onClick={setEducation}>
-            <p className="links">Education</p>
+            <p className="links">Life-Map</p>
           </Col>
           <Col md={1} onClick={setCertificate}>
             <p className="links">Certification</p>

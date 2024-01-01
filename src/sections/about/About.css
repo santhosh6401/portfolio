@@ -5,7 +5,7 @@ h5 {
   margin-top: 5px;
 }
 
-h5::after {
+h5::after , h5::before{
   content: "";
   flex: 1 1;
   border-top: 2px solid var(--color-grey);
@@ -17,6 +17,14 @@ h5::after {
   font-size: 13px;
   line-height: 1.8rem;
   color: #565454f1;
+  text-align: justify;
+}
+
+.text-field-2 {
+  font-size: 13px;
+  line-height: 1.8rem;
+  color: #565454f1;
+  padding-left: 75px;
 }
 
 .table-title {
@@ -41,3 +49,31 @@ h5::after {
 }
 
 
+
+@media screen and (max-width: 600px) {
+
+  .table-title {
+    font-weight: 700;
+    margin-left: -150px;
+  }
+
+  .text-field {
+    font-size: 13px;
+    line-height: 1.8rem;
+    color: #565454f1;
+    margin-left: 0px;
+  }
+
+  .text-field-2 {
+    font-size: 13px;
+    line-height: 1.8rem;
+    color: #565454f1;
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+
+  h5{
+    margin-top: 50px;
+    letter-spacing: 1px;
+  }
+}

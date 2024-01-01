@@ -51,7 +51,7 @@ const Profile = () => {
     <section className="profile">
       Hi ! My Name is <br />
       <p className="text">
-        <b>SANTHOSH KUMAR S</b>
+        <b className="hero-text" >SANTHOSH KUMAR.S</b>
       </p>
       <div className="line"></div>
       <br />

@@ -8,6 +8,21 @@
 .footer {
   margin-top: 5px;
   margin-bottom: 10px;
-  bottom: 0;
-  position: fixed;
+   bottom: 0;
+  position: fixed; 
+}
+
+@media screen and (max-width: 600px) {
+  .icons {
+    display: none;
+  }
+  
+  .footer {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    bottom: 0;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+  }
 }

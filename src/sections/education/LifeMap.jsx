@@ -1,14 +1,21 @@
-import "./Education.css";
+import "./LifeMap.css";
 
-const Education = () => {
+const LifeMap = () => {
   return (
     <div className="container">
       <div className="row">
+      <h6 className="text-center p-3">Life Line</h6>
         <div className="col-md-12">
           <div className="card">
             <div className="card-body">
               <div id="content ">
                 <ul className="timeline">
+                <li className="event" data="IT (2022 - *) " >
+                    <h3 style={{paddingTop:20}}>ACABES</h3>
+                    <p>
+                      Technology associate on acabes international private limited - kochi
+                    </p>
+                  </li>
                   <li className="event" data="BE (2018-2022)">
                     <h3>Sri Shanmugha College of Engg & Technology-Salem</h3>
                     <p>
@@ -39,4 +46,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default LifeMap;

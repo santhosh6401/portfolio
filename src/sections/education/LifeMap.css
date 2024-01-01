@@ -12,6 +12,7 @@
   list-style: none;
   text-align: left;
   max-width: 40%;
+  text-align: justify;
 }
 
 @media (max-width: 767px) {

@@ -11,7 +11,7 @@ const Certification = () => {
   return (
     <div className="card">
       <Container>
-        <h6 className="text-center p-3">Certification</h6>
+        <h6 className="text-center p-3 topic">Certification</h6>
         <Carousel controls={true} indicators={true} className="carousel-dark">
           <Carousel.Item interval={2500}>
             <img

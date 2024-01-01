@@ -10,8 +10,8 @@ export default function index() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="*" element={<ErrorComponenet />} />
         <Route path="/" element={<MainLayout />} />
+        <Route path="*" element={<ErrorComponenet />} />
       </Routes>
     </BrowserRouter>
   );

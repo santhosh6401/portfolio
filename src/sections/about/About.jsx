@@ -11,7 +11,7 @@ const About = () => {
     <Container>
       <div className="section">
         {/* ABOUT ME */}
-        <h5>ABOUT ME </h5>
+        <h5> &nbsp;ABOUT ME </h5>
         <div className="content-line"></div>
         <Container>
           <Row>
@@ -23,8 +23,7 @@ const About = () => {
               developer, I have acquired the skills and knowledge necessary to
               make your project a success.
             </Col>
-            <Col className="text-field" style={{ paddingLeft: 50 }}>
-              
+            <Col className="text-field-2">
               <Table>
                 <tr>
                   <td className="table-title">Name:</td>
@@ -57,7 +56,7 @@ const About = () => {
         <div className="section">
           <Row>
             <Col className="programming">
-              <h5>TECH SKILLS</h5>
+              <h5> &nbsp;TECH SKILLS</h5>
               <div className="interest text-field">
                 <div className="skill">
                   <FaJava /> &nbsp; JAVA
@@ -102,7 +101,7 @@ const About = () => {
               </div>
             </Col>
             <Col>
-              <h5>INTERESTS</h5>
+              <h5>&nbsp;INTERESTS</h5>
               <div className="interest text-field">
                 <p className="skill">
                   <RxTriangleRight /> Full-stack development

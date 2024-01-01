@@ -8,7 +8,7 @@ const Footer = () => {
     <Container className="footer">
       <Row>
         <Col xs={15} sm={11}>
-          Developed with <ImHeart />  by santhoshkumar
+          Developed with <ImHeart color="red"/>  by santhoshkumar
         </Col>
         <Col xs={3} sm={1} className="text-center">
           <a href="https://www.instagram.com/sandie_rep/" target="blank">
