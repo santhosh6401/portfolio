@@ -15,10 +15,18 @@
   text-align: justify;
 }
 
-@media (max-width: 767px) {
+
+.company{
+  padding-top: 0;
+}
+
+@media (max-width: 600px) {
   .timeline {
     max-width: 98%;
     padding: 25px;
+  }
+  .company{
+  padding-top: 20px;
   }
 }
 

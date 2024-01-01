@@ -11,7 +11,7 @@ const LifeMap = () => {
               <div id="content ">
                 <ul className="timeline">
                 <li className="event" data="IT (2022 - *) " >
-                    <h3 style={{paddingTop:20}}>ACABES</h3>
+                    <h3 className="company">ACABES</h3>
                     <p>
                       Technology associate on acabes international private limited - kochi
                     </p>

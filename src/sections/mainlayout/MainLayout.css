@@ -24,12 +24,16 @@
   margin-bottom: 7rem;
 }
 
+.data{
+padding-left: 100px;
+}
+
 .profile-image {
   margin-top: 50px;
   margin-left: 10px ;
   height: 370px;
-  width: 250px;
-  border-radius: 5px 5px 50px 5px;
+  width: 300px;
+  border-radius: 15px 15px 15px 15px;
   box-shadow: 5px 10px 8px 10px #8584844b;
   position: fixed;
   z-index: 1;
