@@ -54,7 +54,7 @@ const About = () => {
 
         <div className="section">
           <Row>
-            <Col className="programming">
+            <Col className="programming" md={5}>
               <h5> &nbsp;TECH SKILLS</h5>
               <div className="interest text-field">
                 <div className="skill">

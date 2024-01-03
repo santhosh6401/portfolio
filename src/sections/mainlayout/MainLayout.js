@@ -10,6 +10,7 @@ import { useState } from "react";
 import Certification from "../certifications/Certification";
 import Resume from "./../../assets/santhoshkumar_CV.pdf";
 import profile_image from "../../assets/Profile.jpeg";
+import { RxInstagramLogo, RxLinkedinLogo, RxGithubLogo } from "react-icons/rx";
 
 const Navbar = () => {
   const [index, setIndex] = useState(0);
@@ -33,8 +34,6 @@ const Navbar = () => {
   const setCertificate = () => {
     setIndex(3);
   };
-
-
 
   return (
     <>
@@ -74,7 +73,13 @@ const Navbar = () => {
       <Container className="header">
         <Row>
           <Col md={3}>
-            <img src={Logo} className="logo" alt="Logo" height={60} width={180} />
+            <img
+              src={Logo}
+              className="logo"
+              alt="Logo"
+              height={60}
+              width={180}
+            />
           </Col>
           <Col md={4}></Col>
           <Col md={1} onClick={setHome}>
@@ -92,7 +97,12 @@ const Navbar = () => {
             <p className="links">Certification</p>
           </Col>
           <Col md={1}>
-            <a href={Resume} download="SanthoshKumar_Resume" target="_blank" rel="noreferrer">
+            <a
+              href={Resume}
+              download="SanthoshKumar_Resume"
+              target="_blank"
+              rel="noreferrer"
+            >
               <p className="links">Download CV</p>
             </a>
           </Col>

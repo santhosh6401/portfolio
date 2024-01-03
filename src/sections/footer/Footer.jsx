@@ -5,27 +5,45 @@ import { ImHeart } from "react-icons/im";
 
 const Footer = () => {
   return (
-    <Container className="footer">
-      <Row>
-        <Col xs={15} sm={11}>
-          Developed with <ImHeart color="red"/>  by santhoshkumar
-        </Col>
-        <Col xs={3} sm={1} className="text-center">
-          <a href="https://www.instagram.com/sandie_rep/" target="blank">
-            <RxInstagramLogo className="icons" />
-          </a>
-          <a
-            href="https://linkedin.com/in/santhoshkumar-s-563a59230"
-            target="blank"
-          >
-            <RxLinkedinLogo className="icons" />
-          </a>
-          <a href="https://github.com/santhosh6401" target="blank">
-            <RxGithubLogo className="icons" />
-          </a>
-        </Col>
-      </Row>
-    </Container>
+    <>
+      <Container className="footer">
+        <Row>
+          <Col xs={15} sm={11}>
+            Developed with <ImHeart color="red" /> by santhoshkumar
+          </Col>
+          <Col xs={3} sm={1} className="text-center">
+            <a href="https://www.instagram.com/sandie_rep/" target="blank">
+              <RxInstagramLogo className="icons" />
+            </a>
+            <a
+              href="https://linkedin.com/in/santhoshkumar-s-563a59230"
+              target="blank"
+            >
+              <RxLinkedinLogo className="icons" />
+            </a>
+            <a href="https://github.com/santhosh6401" target="blank">
+              <RxGithubLogo className="icons" />
+            </a>
+          </Col>
+        </Row>
+      </Container>
+      <div className="footer-icon">
+        <a href="https://www.instagram.com/sandie_rep/" target="blank">
+          <RxInstagramLogo className="icon" color="black" />
+        </a>
+        <br />
+        <a
+          href="https://linkedin.com/in/santhoshkumar-s-563a59230"
+          target="blank"
+        >
+          <RxLinkedinLogo className="icon" color="black" />
+        </a>
+        <br />
+        <a href="https://github.com/santhosh6401" target="blank">
+          <RxGithubLogo className="icon" color="black" />
+        </a>
+      </div>
+    </>
   );
 };
 
