@@ -16,7 +16,6 @@ const About = () => {
         <Container>
           <Row>
             <Col className="text-field" md={5}>
-              
               Hello there! My name is <b>Santhosh kumar</b>. I am a Microservice
               & Frontend Developer , and I'm very passionate and dedicated to my
               work. With 1 years experience as a professional a microservice
@@ -59,7 +58,7 @@ const About = () => {
               <h5> &nbsp;TECH SKILLS</h5>
               <div className="interest text-field">
                 <div className="skill">
-                  <FaJava /> &nbsp; JAVA
+                  <FaJava /> JAVA
                   <ProgressBar
                     now={80}
                     variant="secondary"
@@ -67,7 +66,7 @@ const About = () => {
                   />
                 </div>
                 <div className="skill">
-                  <FaReact /> &nbsp; REACT JS
+                  <FaReact /> REACT JS
                   <ProgressBar
                     now={65}
                     variant="secondary"
@@ -75,7 +74,7 @@ const About = () => {
                   />
                 </div>
                 <div className="skill">
-                  <SiSpringboot /> &nbsp; Spring Boot
+                  <SiSpringboot /> Spring Boot
                   <ProgressBar
                     now={70}
                     variant="secondary"
@@ -83,7 +82,7 @@ const About = () => {
                   />
                 </div>
                 <div className="skill">
-                  <FaDesktop /> &nbsp; C
+                  <FaDesktop /> C
                   <ProgressBar
                     now={75}
                     variant="secondary"
@@ -91,7 +90,7 @@ const About = () => {
                   />
                 </div>
                 <div className="skill">
-                  <DiMongodb /> &nbsp; MONGO DB
+                  <DiMongodb /> MONGO DB
                   <ProgressBar
                     now={75}
                     variant="secondary"
