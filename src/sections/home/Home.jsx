@@ -8,7 +8,7 @@ const Profile = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 200);
   const [, setIndex] = useState(1);
   const toRotate = ["MICROSERVICE DEVELOPER", "FRONTEND DEVELOPER"];
-  const period = 1000;
+  const period = 500;
 
   useEffect(() => {
     let ticker = setInterval(() => {
